@@ -1,0 +1,5 @@
+﻿../../story/whatisnext.htm?../experiments/html/story.txt		        What is Next?
+Experiment1.html								                        Basics of HTML- experimenting with tags
+Experiment2.html                                                       Experimenting with headers and footers
+Experiment3.html                                                       Experimenting with forms
+Experiment4.html                                                       Experimenting with audio and video

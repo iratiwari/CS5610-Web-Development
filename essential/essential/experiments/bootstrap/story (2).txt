@@ -1,0 +1,7 @@
+﻿../../story/whatisnext.htm?../experiments/bootstrap/story.txt		           What is Next?
+Experiment1Bootstrap.html								                   Experimenting with Bootstrap
+Experiment2Bootstrap.html								                   Experimenting with Banners
+Experiment3Bootstrap.html								                   Bootstrap with banner and tables
+
+
+

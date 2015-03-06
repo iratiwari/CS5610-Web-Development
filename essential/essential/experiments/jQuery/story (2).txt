@@ -1,0 +1,7 @@
+﻿../../story/whatisnext.htm?../experiments/jQuery/story.txt		       What is Next?
+Experiment1jQuery.html								                   Tabs using jquery
+Experiment2jQuery.html                                                 Implementation of jQuery HTML
+Experiment3jQuery.html                                                 Implementation of jQuery manipulating CSS
+Experiment4jQuery.html                                                 Implementation of jQuery manipulating Dimensions
+
+

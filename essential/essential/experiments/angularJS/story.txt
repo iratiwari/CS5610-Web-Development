@@ -1,0 +1,7 @@
+﻿../../story/whatisnext.htm?../experiments/angularJS/story.txt		        What is Next?
+1.html								                                        Basics of AngularJS
+2.html                                                                      Experimenting with filters in AngularJS
+3.html                                                                      Experimenting with httprequest in AngularJS
+4.html                                                                      Experimenting with tables in AngularJS
+5.html                                                                      Experimenting with an application of AngularJS
+

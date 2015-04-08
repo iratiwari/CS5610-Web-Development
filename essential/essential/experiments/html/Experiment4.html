@@ -1,41 +1,64 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-
-    <meta charset='utf-8' />
-
-    <title>Experimenting with audio and video</title>
-
-    
+  <title>Experimenting with audio and video</title>
+    <meta charset="UTF-8">
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </head>
 
-<body>
-
-    
+<body class="container">  
+    <div> 
                <h1>Audio Video Implementations</h1>
                 <hr />
-                <h3>Playing audio on webpage</h3>
+                <h3>Playing an audio on a webpage</h3>
                 <audio controls>
                     <source src="../../source/aud.mp3" type="audio/mp3">
-                    Your browser does not support the audio element.
                 </audio>
                 <hr />
-                <h3>Playing audio on webpage</h3>
+                <h3>Playing a video on a webpage</h3>
                 <video width="400" height="300" controls>
                     <source src="../../source/vid.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                
-                &lt;-Hover over the video to get control options.
+               
 
             </div>
+    <div id="Documentation">
+        <hr />
+        <h4>About the Experiment</h4>
+        <p>
+            In this experiment, I learned about playing an audio or video file on a page in HTML5 using the tags for the same.
+            Used bootstrap to make the experiment more presentable.
+        </p>
 
-        </form>
-
+        <hr />
+        <h4>Code Snippet</h4>
+        HTML
+        <pre>
+            &lt;h1>Audio Video Implementations&lt;/h1>
+            &lt;hr />
+            &lt;h3>Playing an audio on a webpage&lt;/h3>
+            &lt;audio controls>
+            &lt;source src="../../source/aud.mp3" type="audio/mp3">
+                &lt;/audio>
+            &lt;hr />
+            &lt;h3>Playing a video on a webpage&lt;/h3>
+            &lt;video width="400" height="300" controls>
+            &lt;source src="../../source/vid.mp4" type="video/mp4">
+            &lt;/video>
+               
+        </pre>
     </div>
     <footer>
-        <p><strong>Source code:</strong><a href="../../fileview/Default.aspx?~/experiments/html/Experiment 4.html">View here</a></p>
+        <p><strong>Source code:</strong><a href="../../fileview/Default.aspx?~/experiments/html/Experiment4.html">View here</a></p>
         <p><strong>References:</strong><a href="http://www.w3schools.com/tags/ref_byfunc.asp">w3schools</a></p>
+        <p>
+            <a href="https://www.youtube.com/user/jannunzi/videos" target="_blank">Prof. Jose's Video Lectures</a>
+        </p>
+
     </footer>
 </body>
 </html>

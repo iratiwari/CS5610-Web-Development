@@ -1,0 +1,19 @@
+﻿body {
+  margin:0px auto;
+  background:#242424;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+
+h1 {
+  margin-top:19%;
+  color:#3e5399;
+  font:50px 'Inconsolata', sans-serif;
+  transition-duration:2s;
+  cursor:pointer;
+}
+
+h1:hover {
+  text-shadow:0px 0px 20px #4f9ad7;
+  transition-duration:2s;
+}

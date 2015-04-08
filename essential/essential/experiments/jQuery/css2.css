@@ -1,0 +1,13 @@
+﻿body {
+}
+#draggable, #drag { 
+    width: 400px; 
+    height: 300px;
+    
+}
+
+#resize { 
+    width: 400px; 
+    height: 300px; 
+
+}

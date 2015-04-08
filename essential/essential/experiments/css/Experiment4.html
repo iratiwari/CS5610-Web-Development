@@ -1,0 +1,59 @@
+﻿
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Experimenting with Animations in CSS</title>
+    <link rel="stylesheet" type="text/css" href="Experiment4.css" />
+</head>
+<body>
+
+    <<h1 id="page-title">Experimenting with Animation in CSS</h1>
+<h2>
+    This page responds to changing screen sizes. It changes based on it being a computer screen, tablet screen or a phone sreen.
+</h2>
+  <hr />
+    <br />
+    <p>The image below is rotated by 120 degrees.</p>
+    <img src="/images/cartoon1.jpg" class="rot3D" /><hr />
+    <p>The background colour of the following image is changed with respect to the position of the image.</p>
+    <div class="animation">
+        <img src="/images/cartoon2.jpg" /><hr />
+    </div>
+    <hr />
+    <h4>About the Experiment</h4>
+    <p>
+        In this experiment, I learned about using CSS for animating images. I learned to change the background colour around an
+        image and to rotate an image.
+    </p>
+    <hr />
+    <h4>Code Snippet</h4>
+    <p>
+        Code Snippet : div.animation{
+        width:600px;
+        position: relative;
+        -webkit-animation: myfirst 5s;
+        animation: myfirst 5s;
+        }
+
+        @-webkit-keyframes myfirst {
+        0%   {background:red; left:0px; top:0px;}
+        25%  {background:yellow; left:400px; top:0px;}
+        50%  {background:blue; left:400px; top:200px;}
+        75%  {background:green; left:0px; top:200px;}
+        100% {background:red; left:0px; top:0px;}
+        }
+    </p>
+
+    <hr />
+    <div id="myfooter">
+        <footer>
+            <p>
+                <strong>Source code:</strong><a href="../../fileview/Default.aspx?~/experiments/css/Experiment4.html">HTML Page</a>
+                , <a href="../../fileview/Default.aspx?~/experiments/css/Experiment4.css">CSS Page</a>
+            </p>
+            <p><strong>References:</strong><a href="http://www.w3schools.com/">w3schools</a></p>
+        </footer>
+    </div>
+
+</body>
+</html>

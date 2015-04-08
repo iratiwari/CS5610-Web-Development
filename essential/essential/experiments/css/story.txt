@@ -1,6 +1,10 @@
 ﻿../../story/whatisnext.htm?../experiments/css/story.txt		       What is Next?
-Experiment1css.html								                   Experiment on implementing columns
-Experiment2css.html								                   Experimenting with Responsive Design
+Experiment1.html								                   Experiment on implementing columns
+Experiment2.html								                   Experimenting with Responsive Design
+Experiment3.html								                   Experimenting with Transparent Images
+Experiment4.html								                   Experimenting with Animations in CSS
+Experiment5.html								                   Experimenting with hover effect in CSS
+
 
 
 

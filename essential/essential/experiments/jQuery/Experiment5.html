@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Experimenting with jQuery draggable and resizeable</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <script src="Experiment5.js"></script>
+    <link rel="stylesheet" type="text/css" href="css2s.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Experimenting with jQuery draggable and resizeable</h1><hr />
+        <h3>1. Draggable</h3>
+        <p>The image can be dragged and dropped anywhere on this screen.</p>
+        <div id="draggable" class="ui-widget-content">
+            <img id="drag" src="/images/cartoon1.jpg" />
+        </div><br />
+        <h4>Experiment Details</h4>
+        <p>The dragging is handled by the function .draggable().</p>
+        <h4>Code Snippet</h4>
+        <pre>
+            $(function () {<br />
+            $("#draggable").draggable();<br />
+            });
+        </pre>
+        <hr />
+
+        
+        <h3>2.Resizable</h3>
+        <p>We can resize the image by dragging from the boundaries.</p><br />
+        <div id="resizable" class="ui-widget-content">
+        <img id="resize" class=".ui-widget-image" src="/images/lion.jpg">
+            </div>
+           <h4>Experiment Details</h4>
+            <p>The resizable event is  handled by resizable() funcion</p>
+            <h4>Code Snippet</h4>
+            <pre>
+            $(function () {<br />
+            $("#resize").resizable();<br />
+            });
+        </pre>
+        <div id="documentation">
+            <hr />
+            <h4>About the Experiment</h4>
+            <p>
+                In this experiment, I implemented jQuery interactions draggable and resizeable for 2 different images, 
+                by making functions for draggable and resizeable elements.
+            </p>
+
+            <hr />
+
+            <hr />
+            <footer>
+                <p><strong>Source code:</strong><a href="../../fileview/Default.aspx?~/experiments/jQuery/Experiment5.html">View HTML here</a></p>
+                <p><strong>Source code:</strong><a href="../../fileview/Default.aspx?~/experiments/jQuery/Experiment5.js">View JS here</a></p>
+                <p><strong>Source code:</strong><a href="../../fileview/Default.aspx?~/experiments/jQuery/css2.css">View CSS here</a></p>
+                <p><strong>References:</strong><a href="http://www.w3schools.com/tags/ref_byfunc.asp">w3schools</a></p>
+                <p>
+                    <a href="https://www.youtube.com/user/jannunzi/videos" target="_blank">Prof. Jose's Video Lectures</a>
+                </p>
+
+            </footer>
+        </div>
+</body>
+</html>

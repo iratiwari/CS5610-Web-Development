@@ -88,12 +88,13 @@
     <li><a href="autofile.aspx" target="_blank">AutoFile</a></li>
     <li><a href="images/autoimage.aspx" target="_blank">Images</a></li>
     <li><a href="blog/" target="_blank">Blog</a></li>
-    <li><a href="story/index.htm?../experiments/story.txt">Experiments</a></li>
+    <li><a href="story/index.htm?../experiments/story.txt">Experiments</a></li>
+    <li><a href="https://github.com/iratiwari/CS5610-Web-Development/tree/master/essential/essential/experiments">Github</a></li>
 </ul>
 
     <p>
-
-
+         
+               <img style="max-width:90%" src="images/myimage.jpg" />        
 
 
     Hi,

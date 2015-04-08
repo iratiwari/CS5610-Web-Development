@@ -1,7 +1,9 @@
 ﻿../../story/whatisnext.htm?../experiments/bootstrap/story.txt		           What is Next?
-Experiment1Bootstrap.html								                   Experimenting with Bootstrap
-Experiment2Bootstrap.html								                   Experimenting with Banners
-Experiment3Bootstrap.html								                   Bootstrap with banner and tables
+Experiment1.html								                               Experimenting with Bootstrap
+Experiment2.html								                               Experimenting with Banners
+Experiment3.html								                               Experimenting with banner and tables
+Experiment4.html								                               Experimenting with grids and icons
+Experiment5.html                                                               Experimenting with bootstrap carousel
 
 
 

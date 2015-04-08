@@ -3,23 +3,12 @@
 <head>
     <title> Basics of HTML- experimenting with tags </title>
     <meta charset="UTF-8">
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </head>
-<body>
-    <style>
-        body {
-               background-color: lightgray;
-             }
-
-        h1 
-           {
-            color: blue;
-           }
-
-        p 
-           {
-            color: green;
-           }
-    </style>
+<body class="container">
     <h1>Hello World!</h1>
     <div>
         <h2> The second heading</h2>
@@ -31,9 +20,12 @@
             </p>
            <br />
             <p>
-                <pre>
                     <mark>  Lorem Ipsum is simply dummy text of the printing and typesetting industry. </mark>
+                </p>
+        <p>
                     <strong>Lorem Ipsum has been the industry's standard </strong>
+            </p>
+        <p>
                             dummy text ever since the 1500s, when an unknown printer took a galley of type and 
                             scrambled it to make a type specimen book.
                             It has survived not only five centuries, but also the leap 
@@ -43,14 +35,12 @@
                             sheets containing Lorem Ipsum passages,
                             and more recently with desktop publishing software like Aldus PageMaker 
                             including versions of Lorem Ipsum.
-                </pre>
            </p>
 
 
     </div>
     <div>
         <code>
-            <pre>
             <!---This is a piece of code-->
             var person = {
             firstName:"Ira",
@@ -58,20 +48,62 @@
             age:25,
             eyeColor:"black"
             }
-           </pre>
         </code>
 
     </div>
 
-    <div>
-        <a href="http://www.w3schools.com">References - w3schools</a>
-
-
+    <div id="documentation">
+        <hr />
+        <h4>About the Experiment</h4>
+        <p>In this experiment, I made my first dummy HTML Page.
+        I learned about basic  HTML tags for headings, paragraphs, div, tag for a piece of code, del etc. I used
+        bootstrap to make it look more presentable. </p>
+    
+        <hr />
+        <h4>Code Snippet</h4>
+        HTML
+        <pre>
+            &lt;h2> The second heading&lt;/h2>
+            &lt;h3> The third heading&lt;/h3>
+            &lt;p>
+            &lt;b>&lt;i>This is a paragraph.&lt;/i> &lt;/b>
+            &lt;/p>
+            &lt;br />
+            &lt;p>
+            &lt;mark>  Lorem Ipsum is simply dummy text of the printing and typesetting industry. &lt;/mark>
+            &lt;strong>Lorem Ipsum has been the industry's standard &lt;/strong>
+                            dummy text ever since the 1500s, when an unknown printer took a galley of type and 
+                            scrambled it to make a type specimen book.
+                            It has survived not only five centuries, but also the leap 
+            &lt;del>in&lt;/del>to electronic typesetting, 
+                            remaining essentially unchanged.
+                            It was popularised &lt;ins>in &lt;/ins> the 1960s with the release of Letraset 
+                            sheets containing Lorem Ipsum passages,
+                            and more recently with desktop publishing software like Aldus PageMaker 
+                            including versions of Lorem Ipsum.
+                &lt;code>
+            &lt;!---This is a piece of code-->
+            var person = {
+            firstName:"Ira",
+            lastName:"Tiwari",
+            age:25,
+            eyeColor:"black"
+            }
+        &lt;/code>
+           &lt;/p>
+</pre>
+        <hr />
+        <footer>
+            <p><strong>Source code:</strong></p> 
+            <p>
+                <a href="../../fileview/Default.aspx?~/experiments/html/Experiment1.html">This HTML Page</a><br />
+            </p>
+            <p><strong>References:</strong></p>
+            <p>
+                <a href="https://www.youtube.com/user/jannunzi/videos" target="_blank">Prof. Jose's Video Lectures</a>
+            </p>
+        </footer>
     </div>
-    <footer>
-        <p><strong>Source code:</strong><a href="../../fileview/Default.aspx?~/experiments/html/Experiment 1.html">View here</a></p>
-        <p><strong>References:</strong><a href="http://www.w3schools.com/tags/ref_byfunc.asp">w3schools</a></p>
-    </footer>
 
 </body>
 </html>

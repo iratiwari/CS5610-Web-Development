@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Experimenting with jQuery manipulating Dimensions</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="Experiment4.js"></script>
+    <link href="css1.css" rel="stylesheet" />
+</head>
+<body>
+    <h2>Experimenting with jQuery manipulating dimensions of boxes</h2>
+    <hr />
+    <h3>jQuery addclass() method</h3>
+    <div id="div5">
+        <p id="p1">Box 1</p>
+    </div>
+    <button id="button1">Dimensions of box 1</button><br />
+    <div id="div6">
+        <p id="p1">Box 2</p>
+    </div>
+    <button id="button2">Inner dimensions of box 2</button><br />
+    <div id="div7">
+        <p id="p1">Box 3</p>
+    </div>
+    <button id="button3">Outer dimensions of box 3</button><br />
+    <div id="div8">
+        <p id="p1">Box 4</p>
+    </div>
+    <hr/>
+    <button id="button4">Change dimensions to 100*100</button><br />
+    <h4>About the Experiment</h4>
+    <p>
+        In this experiment, I experimented with jQuery manpiulating dimensions of boxes. The dimensions are shown when each button 
+        next to the box is clicked, or resized as required. 
+    </p>
+    <h4>Code Snippet - Javascript</h4>
+    <pre>
+        $(document).ready(function () {
+    $("#button1").click(function () {
+        var txt = "</br>";
+        txt += "Width of div: " + $("#div5").width() + "</br>";
+        txt += "Height of div: " + $("#div5").height();
+        $("#div5").html(txt);
+    });
+    $("#button2").click(function ()
+    {
+        var txt = "";
+        txt += "Width of div: " + $("#div6").width() + "</br>";
+        txt += "Height of div: " + $("#div6").height() + "</br>";
+        txt += "Inner width of div: " + $("#div6").innerWidth() + "</br>";
+        txt += "Inner height of div: " + $("#div6").innerHeight();
+        $("#div6").html(txt);
+    });
+    $("#button3").click(function ()
+    {
+        var txt = "";
+        txt += "Width of div: " + $("#div7").width() + "</br>";
+        txt += "Height of div: " + $("#div7").height() + "</br>";
+        txt += "Outer width: " + $("#div7").outerWidth() + "</br>";
+        txt += "Outer height: " + $("#div7").outerHeight();
+        $("#div7").html(txt);
+    });
+    $("#button4").click(function () {
+        $("#div8").width(100).height(100);
+    });
+});
+</pre>
+    <hr/>
+    <div id="myfooter">
+    <footer>
+    <p>
+    <strong>Source code:</strong><a href="../../fileview/Default.aspx?~/Experiments/jQuery/Experiment4.html">View HTML here</a>
+                , <a href="../../fileview/Default.aspx?~/Experiments/jQuery/Experiment4.js">View jQuery here</a>
+                , <a href="../../fileview/Default.aspx?~/Experiments/jQuery/css1.css">View CSS here</a>
+            </p>
+    <p><strong>References:</strong><a href="http://www.w3schools.com/jquery/default.asp">w3schools</a></p>
+        </footer>
+        </div>
+</body>
+</html>

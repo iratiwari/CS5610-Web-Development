@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Experimenting with jQuery manipulating CSS</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="Experiment3.js"></script>
+    <link href="css1.css" rel="stylesheet" />
+</head>
+<body>
+    <h2>Experimenting with jQuery manipulating CSS</h2>
+    <hr />
+    <h3>jQuery addclass() method</h3>
+    <p id="p1">The color of this line will change to blue</p>
+    <p id="p2">This color of this line will change to green</p>
+    <p id="p3">This line will become bold text</p>
+    <button id="button1">button</button><br />
+    <p id="p4">Adding two classes together</p>
+    <button id="button2">button</button><br />
+    
+    <h3>jQuery removeClass() Method</h3>
+    <p id="p5">class would get added and then removed</p>
+    <button id="button3">add green and bold</button><br />
+    <button id="button4">remove bold</button><br />
+    <button id="button5">remove green</button><br />
+
+    <h3>jQuery toggleClass() Method</h3>
+    <p id="p6">Toggles class blue</p>
+    <button id="button6">toggle class</button><br />
+
+    <h3>jQuery css() Methods</h3>
+    <p id="p7"class="blue">This is a blue colored paragraph.</p>
+    <button id="button7">Return color of text as alert</button><br /><br />
+
+    <p id="p8" class="blue">This is a blue colored paragraph.</p>
+    <button id="button8">Change text color</button><br />
+    <button id="button9">Change background color</button><br />
+
+    <p id="p9">Adding multiple CSS properties</p>
+    <button id="button10">Change CSS properties</button><hr/>
+
+    <h4>About the Experiment</h4>
+    <p>
+        In this experiment, I experimented with jQuery effects with CSS. The colour of the text changes when the buttons given are 
+        clicked. Also created an alert to return the color of the text as an alert.
+    </p>
+    <h4>Code Snippet - Javascript</h4>
+    <pre>
+        $(document).ready(function () {
+    $("#button1").click(function () {
+        $("#p1").addClass("blue");
+        $("#p2").addClass("green");
+        $("#p3").addClass("bold");
+    });
+    $("#button2").click(function () {
+        $("#p4").addClass("green bold");
+    });
+    $("#button3").click(function () {
+        $("#p5").addClass("green bold");
+    });
+    $("#button4").click(function () {
+        $("#p5").removeClass("bold");
+    });
+    $("#button5").click(function () {
+        $("#p5").removeClass("green");
+    });
+    $("#button6").click(function () {
+        $("#p6").toggleClass("blue");
+    });
+    $("#button7").click(function () {
+        alert("Text color = " + $("#p7").css("color"));
+    });
+    $("#button8").click(function () {
+        $("#p8").css("color", "green");
+    });
+    $("#button9").click(function () {
+        $("#p8").css("background-color", "black");
+    });
+    $("#button10").click(function () {
+        $("#p9").css({ "background-color": "black", "font-weight": "bold"});
+    });
+});
+
+</pre>
+    <div id="myfooter">
+    <footer>
+    <p>
+    <strong>Source code:</strong><a href="../../fileview/Default.aspx?~/Experiments/jQuery/Experiment3.html">View HTML here</a>
+                , <a href="../../fileview/Default.aspx?~/Experiments/jQuery/Experiment3.js">View jQuery here</a>
+                , <a href="../../fileview/Default.aspx?~/Experiments/jQuery/css1.css">View CSS here</a>
+            </p>
+    <p><strong>References:</strong><a href="http://www.w3schools.com/jquery/default.asp">w3schools</a></p>
+        </footer>
+        </div>
+</body>
+</html>

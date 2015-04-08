@@ -2,8 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Experimenting with forms</title>
+    <meta charset="UTF-8">
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body class="container">
     <h2>Create your profile</h2>
     <form>
         <div>
@@ -18,7 +23,7 @@
             <div>
                 <label for="lastName">Last name</label>
                 <div>
-                    <input id="lastName" title="Last Name" type="text"/>
+                    <input id="lastName" title="Last Name" type="text" />
                 </div>
             </div>
         </div>
@@ -26,7 +31,7 @@
             <div>
                 <label for="dateOfBirth">Date of Birth</label>
                 <div>
-                    <input id="dateOfBirth" title="Date of Birth" type="date"/>
+                    <input id="dateOfBirth" title="Date of Birth" type="date" />
                 </div>
             </div>
         </div>
@@ -34,7 +39,7 @@
             <div>
                 <label for="email">Email :</label>
                 <div>
-                    <input id="email" title="Email :"  type="email" placeholder="johndoe@website.com"/>
+                    <input id="email" title="Email :" type="email" placeholder="johndoe@website.com" />
                 </div>
             </div>
         </div>
@@ -52,41 +57,140 @@
                 <div>
                     <label for="Gender">Gender :</label>
                     <div>
-                        <input id="gender" title="Female" type="radio" name="gender" value="FEMALE" /><label>Female</label>
-                        <input id="gender" title="Male" type="radio" name="gender" value="MALE" /><label>Male</label>
+                        <input id="gender" title="Female" type="radio" name="gender" value="FEMALE" /><label> Female</label>
+                        <input id="gender" title="Male" type="radio" name="gender" value="MALE" /><label> Male</label>
                     </div>
                 </div>
             </div>
-        <div>
             <div>
-                <label for="Interests">Interests :</label>
+                <div>
+                    <label for="Interests">Interests :</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Books" value="BOOKS" /><label> Books</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Music" value="MUSIC" /><label> Music</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Movies" value="MOVIES" /><label> Movies</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Poetry" value="POETRY" /><label> Poetry</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Computer Science" value="COMPUTER SCIENCE" /><label> Computer Science</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Travel" value="TRAVEL" /><label> Travel</label>
+                </div>
             </div>
             <div>
-                <input type="checkbox" name="Books" value="BOOKS" /><label>Books</label>
+                <button type="submit">Submit</button>
             </div>
-            <div>
-                <input type="checkbox" name="Music" value="MUSIC" /><label>Music</label>
-            </div>
-            <div>
-                <input type="checkbox" name="Movies" value="MOVIES" /><label>Movies</label>
-            </div>
-            <div>
-                <input type="checkbox" name="Poetry" value="POETRY" /><label>Poetry</label>
-             </div>
-            <div>
-                <input type="checkbox" name="Computer Science" value="COMPUTER SCIENCE" /><label>Computer Science</label>
-            </div>
-            <div>
-                <input type="checkbox" name="Travel" value="TRAVEL" /><label>Travel</label>
-            </div>
-            </div>
-        <div>
-            <button type="submit">Submit</button>
-        </div>
     </form>
-    <footer>
-        <p><strong>Source code:</strong><a href="../../fileview/Default.aspx?~/experiments/html/Experiment 3.html">View here</a></p>
+
+    <div id="documentation">
+        <hr />
+        <h4>About the Experiment</h4>
+        <p>
+            In this experiment, I learned about forms and various input fields in HTML5. I learned about simple text input, date input,
+            radio buttons, check boxes and the submit button. I also learned about adding a placeholder tag for an e-mail.
+            Used bootstrap to make the experiment more presentable.
+        </p>
+
+        <hr />
+        <h4>Code Snippet</h4>
+        HTML
+        <pre>
+            &lt;h2>Create your profile&lt;/h2>
+            &lt;form>
+            &lt;div>
+            &lt;div>
+            &lt;label for="firstName">First name&lt;/label>
+            &lt;div>
+            &lt;input id="firstName" title="First Name" type="text" />
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+            &lt;div>
+            &lt;div>
+            &lt;label for="lastName">Last name&lt;/label>
+            &lt;div>
+            &lt;input id="lastName" title="Last Name" type="text" />
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+            &lt;div>
+            &lt;div>
+            &lt;label for="dateOfBirth">Date of Birth&lt;/label>
+            &lt;div>
+            &lt;input id="dateOfBirth" title="Date of Birth" type="date" />
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+            &lt;div>
+            &lt;div>
+            &lt;label for="email">Email :&lt;/label>
+            &lt;div>
+            &lt;input id="email" title="Email :" type="email" placeholder="johndoe@website.com" />
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+            &lt;div>
+            &lt;div>
+            &lt;div>
+            &lt;label for="telephone">Telephone :&lt;/label>
+            &lt;div>
+            &lt;input id="telephone" title="Telephone :" type="tel" />
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+            &lt;div>
+            &lt;div>
+            &lt;label for="Gender">Gender :&lt;/label>
+            &lt;div>
+            &lt;input id="gender" title="Female" type="radio" name="gender" value="FEMALE" />&lt;label>Female&lt;/label>
+            &lt;input id="gender" title="Male" type="radio" name="gender" value="MALE" />&lt;label>Male&lt;/label>
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+            &lt;div>
+            &lt;div>
+            &lt;label for="Interests">Interests :&lt;/label>
+                &lt;/div>
+            &lt;div>
+            &lt;input type="checkbox" name="Books" value="BOOKS" />&lt;label>Books&lt;/label>
+                &lt;/div>
+            &lt;div>
+            &lt;input type="checkbox" name="Music" value="MUSIC" />&lt;label>Music&lt;/label>
+                &lt;/div>
+            &lt;div>
+            &lt;input type="checkbox" name="Movies" value="MOVIES" />&lt;label>Movies&lt;/label>
+                &lt;/div>
+            &lt;div>
+            &lt;input type="checkbox" name="Poetry" value="POETRY" />&lt;label>Poetry&lt;/label>
+                &lt;/div>
+            &lt;div>
+            &lt;input type="checkbox" name="Computer Science" value="COMPUTER SCIENCE" />&lt;label>Computer Science&lt;/label>
+                &lt;/div>
+            &lt;div>
+            &lt;input type="checkbox" name="Travel" value="TRAVEL" />&lt;label>Travel&lt;/label>
+                &lt;/div>
+            &lt;/div>
+            &lt;div>
+            &lt;button type="submit">Submit&lt;/button>
+            &lt;/div>
+    &lt;/form>
+
+</pre>
+    </div>
+        <footer>
+        <p><strong>Source code:</strong><a href="../../fileview/Default.aspx?~/experiments/html/Experiment3.html">View here</a></p>
         <p><strong>References:</strong><a href="http://www.w3schools.com/tags/ref_byfunc.asp">w3schools</a></p>
+        <p>
+        <a href="https://www.youtube.com/user/jannunzi/videos" target="_blank">Prof. Jose's Video Lectures</a>
+        </p>
     </footer>
 </body>
 </html>

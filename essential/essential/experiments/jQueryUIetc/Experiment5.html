@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Experimenting with a string generator in JS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="Experiment5.js"></script>
+
+
+</head>
+<body class="container">
+    <h2>Experimenting with a string generator in JS</h2><hr />
+    <p>
+        <b>
+            In this page I created a random string which provides a randomly generated text.<br />
+            It takes the length of the string to be created as input.
+        </b>
+    </p>
+    <form name="string">
+        <b>Enter string Length:</b>
+        <input type="text" name="length" value="10"><br />
+        <input type="button" class="btn btn-success" value="Create String" onclick="stringcreator(this.form.length.value)"><br /><br />
+        <output name="output" typeof="text" size="18"></output><br>
+    </form>
+    <div>
+        <hr />
+        <h4>Code Snippet</h4>
+        Javascript:
+        <pre>
+    var keylist = "abcdefghijklmnopqrstuvwxyz@!#$%&*ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789"
+    var temp = ''
+    function stringcreator(length) {
+    document.sring.output.value = randomoutput(length)
+    }
+    function randomoutput(length) {
+    temp = ''
+    for (i = 0; i < length; i++)
+        temp += keylist.charAt(Math.floor(Math.random() * keylist.length))
+    return temp
+    }   
+    </pre>
+        <hr />
+        HTML :
+        <pre>
+    &lt;form name="captcha">
+    &lt;b>Enter string Length: &lt;/b>
+    &lt;input type="text" name="length" value="10"> &lt;br />
+    &lt;input type="button" class="btn btn-success" value="Create string" onclick="stringcreator(this.form.length.value)"> 
+    &lt;br /> &lt;br />
+    &lt;output name="output" typeof="text" size="18"> &lt;/output> &lt;br>
+    &lt;/form>
+    </pre>
+        <hr />
+    </div>
+    <footer>
+        <p>
+            <strong>Source code:</strong><a href="../../fileview/Default.aspx?~/experiments/jQueryUIetc/Experiment5.html">HTML Page</a>
+            , <a href="../../fileview/Default.aspx?~/experiments/jQueryUIetc/Experiment5.js">js Page</a>
+        </p>
+        <p><strong>References:</strong><a href="http://www.w3schools.com/">w3schools</a></p>
+    </footer>
+
+
+</body>
+</html>

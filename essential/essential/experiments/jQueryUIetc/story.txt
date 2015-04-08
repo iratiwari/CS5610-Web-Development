@@ -1,0 +1,8 @@
+﻿../../story/whatisnext.htm?../experiments/jQueryUIetc/story.txt		       What is Next?
+Experiment1.html								                           Experimenting with jQueryUI Interactions
+Experiment2.html								                           Experimenting with geoLocation
+Experiment3.html								                           Experimenting with a cursor listener
+Experiment4.html								                           Experimenting with animations using CSS keyframes
+Experiment5.html								                           Experimenting with a string generator in JS
+
+

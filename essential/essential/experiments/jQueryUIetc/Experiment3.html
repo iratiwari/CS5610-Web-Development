@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Experimenting with a cursor listener</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="Experiment3.js"></script>
+    <link href="css2.css" rel="stylesheet" />
+</head>
+<body class="container">
+    <h2>Experimenting with a cursor listener</h2><hr />
+    <div id="myCanvas">
+        <canvas id="canvas" width="700" height="700"></canvas>
+        <h3 id="CurrentStatus">Current cursor Position : (0, 0)</h3>
+    </div>
+    <div id="documentation">
+        <hr />
+        <h4>About the Experiment</h4>
+        <p>
+            In this experiment, I made a cursor listener. It gives the current position of the cursor on the given canvas.
+            On clicking inside the canvas, a rectangle is formed around the click.
+        </p>
+        <hr />
+        <h4>Code Snippet</h4>
+        Javascript:
+        <pre>
+   function canvas() {
+    var ctx = document.getElementById('canvas').getContext('2d');
+    ctx.canvas.addEventListener('mousemove', function (event) {
+        var cursorX = event.clientX - ctx.canvas.offsetLeft;
+        var cursorY = event.clientY - ctx.canvas.offsetTop;
+        var status = document.getElementById('CurrentStatus');
+        status.innerHTML = "Current cursor Position : (" + cursorX + ", " + cursorY + ")";
+    });
+    ctx.canvas.addEventListener('click', function (event) {
+        var cursorX = event.clientX - ctx.canvas.offsetLeft;
+        var cursorY = event.clientY - ctx.canvas.offsetTop;
+        ctx.fillStyle = "yellow";
+        ctx.fillRect(cursorX - 10, cursorY - 10, 10, 10);
+    });
+}
+window.addEventListener('load', function (event) {
+    canvas();
+});
+    </pre>
+        <hr />
+        HTML :
+        <pre>
+    &lt;div id="myCanvas">
+    &lt;canvas id="canvas" width="700" height="700">
+    &lt;/canvas>
+    &lt;h3 id="CurrentStatus">Current cursor Position : (0, 0)&lt;/h3>
+    &lt;/div>
+    </pre>
+        <hr />
+    </div>
+    <footer>
+        <p>
+            <strong>Source code:</strong><a href="../../fileview/Default.aspx?~/Experiments/misc/3.html">View HTML here</a>
+            , <a href="../../fileview/Default.aspx?~/Experiments/misc/3.js">View js here</a>
+            , <a href="../../fileview/Default.aspx?~/Experiments/misc/3.css">View CSS here</a>
+        </p>
+    </footer>
+</body>
+</html>

@@ -1,4 +1,0 @@
-﻿../../story/whatisnext.htm?../experiments/jQueryUI/story.txt		       What is Next?
-Experiment1jQueryUI.html								                   Experimenting with draggable, resizeable etc. in jQuery
-
-

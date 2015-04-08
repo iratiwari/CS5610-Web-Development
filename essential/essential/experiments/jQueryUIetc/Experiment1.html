@@ -6,11 +6,11 @@
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
     <link rel="stylesheet" href="/resources/demos/style.css">
-    <script src="1.js"></script>
+    <script src="Experiment1.js"></script>
     <link href="css1.css" rel="stylesheet" />
 </head>
 <body>
-    <h2>jQuery UI Implementations</h2><hr />
+    <h2>Experimenting with jQueryUI Interactions</h2><hr />
     <h3>Draggable</h3>
     <h5 class="draggable">
         YOU CAN DRAG THIS 
@@ -73,17 +73,67 @@
         <input id="tags">
         <br /><br />
     </div>
+    <div id="documentation">
+        <hr />
+        <h4>About the Experiment</h4>
+        <p>
+            In this experiment, I implemented jQueryUI interactions , used draggable, resizeable and sortable for texts and lists.
+            Also used the widget accordion to expand or collapse panels on a page. I also learned to implement autocomplete for
+            a menu of programming languages.
 
-    <div id="myfooter" class="ui-widget-content">
-        <footer>
-            <p>
-                <strong>Source code:
-                   </strong><a href="../../fileview/Default.aspx?~/experiments/jQueryUI/Experiment1jQueryUI.html">HTML Page</a>
-                 <a href="../../fileview/Default.aspx?~/experiments/jQueryUI/1.js">jQuery Page</a>
-                 <a href="../../fileview/Default.aspx?~/experiments/jQueryUI/css1.css">CSS Page</a>
-            </p>
-            <p><strong>References:</strong><a href="jQueryui.com">jQueryUI</a></p>
-        </footer>
-    </div>
+        </p>
+        <h4>Code Snippet - Javascript</h4>
+        <pre>
+            $(function () {
+    $(".draggable").draggable();
+    $("#resizable").resizable();
+    $("#selectable").selectable();
+    $("#sortable").sortable();
+    $("#sortable").disableSelection();
+    $("#accordion").accordion();
+});
+$(function () {
+    var availableTags = [
+"ActionScript",
+"AppleScript",
+"Asp",
+"BASIC",
+"C",
+"C++",
+"Clojure",
+"COBOL",
+"ColdFusion",
+"Erlang",
+"Fortran",
+"Groovy",
+"Haskell",
+"Java",
+"JavaScript",
+"Lisp",
+"Perl",
+"PHP",
+"Python",
+"Ruby",
+"Scala",
+"Scheme"
+    ];
+    $("#tags").autocomplete({
+        source: availableTags
+    });
+});
+</pre>
+</div>
+        <div id="myfooter" class="ui-widget-content">
+            <footer>
+                <p>
+                    <strong>
+                        Source code:
+                    </strong><a href="../../fileview/Default.aspx?~/experiments/jQueryUIetc/Experiment1.html">View HTML here</a>
+                    <a href="../../fileview/Default.aspx?~/experiments/jQueryUIetc/Experiment1.js">View jQuery here</a>
+                    <a href="../../fileview/Default.aspx?~/experiments/jQueryUIetc/css1.css">View CSS here</a>
+                </p>
+                <p><strong>References:</strong><a href="jQueryui.com">jQueryUI</a></p>
+            </footer>
+        </div>
 </body>
 </html>

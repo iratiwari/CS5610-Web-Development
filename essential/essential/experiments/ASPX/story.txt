@@ -1,0 +1,14 @@
+﻿../../story/whatisnext.htm?../experiments/ASPX/story.txt                              What is Next?
+000-hello-from-ASPX.aspx                                                              First page in ASP.NET
+001-embed-cs-code.aspx                                                                Embedding C# code in an ASP.NET page
+002-dynamic_loops.aspx                                                                Using dynamic loops in C#
+003-dynamic_tables.aspx                                                               Using dynamic tables in ASP.NET
+004-Forms_input fields.aspx                                                           Forms and input fields
+006-PageLoad.aspx                                                                     Understanding Page Load
+007-button.aspx                                                                       Use of a button and on click function
+008-TextBox.aspx                                                                      Use of a textbox and an event handler
+009-calculator.aspx                                                                   A simple calculator in ASP.NET
+010-Query_String.aspx                                                                 Parsing parameters from a query string
+011-IsPostBack.aspx                                                                   Demonstrating PostBack
+012-Session.aspx                                                                      Sessions in ASP.NET
+013-store_item_in_session.aspx                                                        A simple shopping cart demonstrating sessions  

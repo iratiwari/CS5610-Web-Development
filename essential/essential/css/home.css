@@ -1,0 +1,123 @@
+﻿@font-face
+{
+	font-family: myFont;
+	src: url(css/myfont.ttf);
+    
+}
+@font-face
+{
+	font-family: myBodyFont;
+	src: url(css/LiberationSans-Regular.ttf);
+}
+hr
+{
+	color: blue;
+}
+h3
+{
+	font-family: Shift;
+	margin-left:auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 50px;
+	color: #6D929B;
+	text-decoration: none;
+}
+body
+{
+	background-image:url(http://www.designbolts.com/wp-content/uploads/2013/02/Floral-Grey-Seamless-Pattern-For-Website-Background.jpg);
+	margin: 20px;
+}
+.myimg
+{
+    
+	float: left;
+	width: 375px;
+	height: 375px;
+	border-radius: 60%;
+}
+
+
+a:link 
+{
+	color: grey;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: grey;
+	text-decoration: none;
+}
+a:hover 
+{
+	color: #494546;
+	text-decoration: none;
+}
+.navul
+{
+	background-color: floralwhite;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
+.myimagediv
+{
+	background-color: white;
+	margin-left: 20px ;
+	margin-right: 20px;
+	float: left;
+	width: 375px;
+	height: 375px;
+	border-radius: 60%;
+
+
+}
+.hidden
+{
+	color: #494546;
+	text-align: center;
+	width: 275px;
+}
+.hidden > hr
+{
+	width: 50%;
+}
+.mytextdiv
+{
+	margin-top: 10px;
+	margin-left: 315px;
+	margin-right: auto;
+	height: 275px;
+	color: #494546;
+}
+li
+{
+	color: black;
+	display: inline;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.headingli
+{
+	border-left: none;
+	border-top: none;
+	border-bottom: none;
+	border-right: 2px;
+	border-color: brown;
+}
+.buttondiv
+{
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 60px;
+	color: white;
+	background-color: #6D929B;
+	border-radius: 15%;
+	text-align: center;
+}

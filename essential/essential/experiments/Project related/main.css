@@ -1,0 +1,194 @@
+﻿.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('http://www.bahr.net.nz/wp-content/uploads/2013/07/Bookshelf-2.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+.jumbotron h2 {
+  color: #fff;
+  font-size: 40px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+.jumbotron h3 {
+  color: #fff;
+  font-size: 24px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+.jumbotron h4 {
+  color: #fff;
+  font-size: 20px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h2 {
+  font-family: 'Shift', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+.learn-more h5 {
+    font-size : 14px;
+  font-family:'Lucida Calligraphy';
+  color: #3a9ee1;
+}
+.book-guides
+{
+    background-color:#efefef;
+    border-bottom:1px solid #dbdbdb;
+    }
+.book-guides .h2
+{
+    color :#393c3d;
+    font-size:24px;
+}
+.book-guides .p
+{
+    font-size:15px;
+    margin-bottom:13px;
+}
+.book-guides .container  .row .thumbnail
+{
+    width : auto;
+    height : auto;
+}
+#searchResults
+{
+        margin-top:30px;
+        margin-bottom:30px;
+        margin-left:auto;
+        margin-right:auto;
+        display: block;
+        width:80%;
+        background-color:#efefef;
+        opacity:2;
+}
+#myTable 
+{
+    padding:5px;
+    text-align:center;
+    width:75%;
+}
+td 
+{
+    font-family:'Shift', sans-serif;
+    font-size:20px;
+    color:#fff;
+    padding:15px;
+}
+td:first-child 
+{
+    font-family:'Shift', sans-serif;
+    font-size:20px;
+    color:#fff;
+    padding:3px;
+}
+#bookImages 
+{
+    opacity:1;
+    width:88%;
+    height:82%;
+}
+#textbox1
+{
+  font-family:'Shift', sans-serif;
+  border: 0;
+  padding: 7px;
+  font-size: 14px;
+}
+#nobookHead 
+{
+    font-family:'Shift', sans-serif;
+    text-align:center;
+    font-size:16px;
+}
+.hey
+{
+    height: 40px;
+    width: 40px;
+}
+#bookDetails {
+    display:block;
+    font-family:'Shift', sans-serif;
+    background-color: #f7f7f7;
+    color:white;
+    font-size:16px;
+    height: auto;
+    background-image:url('http://www.bahr.net.nz/wp-content/uploads/2013/07/Bookshelf-2.jpg');
+     background-repeat: no-repeat;
+    background-size: cover;
+    font-weight:bold;
+    padding : 50px;
+}
+.container2 {
+    font-family:'Shift', sans-serif;
+    color:white;
+  background-image:url('http://www.bahr.net.nz/wp-content/uploads/2013/07/Bookshelf-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#searchAuthorResults {
+    display:block;
+    font-family:'Shift', sans-serif;
+    background-color: #f7f7f7;
+    color:white;
+    font-size:16px;
+    height: auto;
+    background-image:url('http://www.bahr.net.nz/wp-content/uploads/2013/07/Bookshelf-2.jpg');
+     background-repeat: no-repeat;
+    background-size: cover;
+    font-weight:bold;
+    padding : 50px;
+}
+#nobookHead {
+    color:black;
+}
+#authorTitle
+{
+    color:#465c90;
+}
+#fav_button
+{
+    padding:10px;
+}
+#book_button
+{
+    padding:20px;
+}
+#review_button
+{
+    padding:10px;
+}

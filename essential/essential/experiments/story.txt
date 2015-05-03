@@ -3,9 +3,8 @@
 ../story/index.htm?../experiments/css/story.txt                                  Week 2 - CSS
 ../story/index.htm?../experiments/bootstrap/story.txt                            Week 3 - Bootstrap
 ../story/index.htm?../experiments/jQuery/story.txt                               Week 4 - JQuery
-../story/index.htm?../experiments/jQueryUI/story.txt                             Week 5 - JQueryUI, JS, CSS , Bootstrap
+../story/index.htm?../experiments/jQueryUIetc/story.txt                          Week 5 - JQueryUI, JS, CSS , Bootstrap
 ../story/index.htm?../experiments/angularJS/story.txt                            Week 6 - AngularJS
-../story/index.htm?../experiments/nodeJS/story.txt                               Week 7 - NodeJS
-../story/index.htm?../experiments/nodeJS/story.txt                               Week 8 - GoogleAPI , Angular, Bootstrap
-../story/index.htm?../experiments/ASPX/story.txt                                 Week 9 and 10 - ASPX (Project Related)
-
+../story/index.htm?../experiments/webAPI/story.txt                               Week 7 - Web API's
+../story/index.htm?../experiments/ASPX/story.txt                                 Weeks 8 and 9 - ASP.NET (Project related)
+../story/index.htm?../experiments/week10/story.txt                               Weeks 10 - Project related

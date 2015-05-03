@@ -1,0 +1,15 @@
+﻿../../story/whatisnext.htm?../project/documentation/story.txt		    What is Next?
+Introduction.html								                        Introduction
+Acknowledgements.html                                                   Acknowledgements
+Links.html                                                              Links
+Homepage.html                                                           Home page
+Searchpage.html                                                         Search page
+Bookdetailspage.html                                                    Book details page
+Authordetailspage.html                                                  Author details page
+Authorbookspage.html                                                    Author books page
+Authorbooksdetailspage.html                                             Author books details page
+Loginpage.html                                                          Login page
+Signuppage.html                                                         Signup page
+Profilepage.html                                                        Profile page
+Technologiesused.html                                                   Technologies used
+References.html                                                         References

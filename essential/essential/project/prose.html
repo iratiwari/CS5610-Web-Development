@@ -1,0 +1,58 @@
+﻿signup page 
+
+the user simply will be added to the database in this case. no gridview display required. 
+
+-- show message "you are registered" or something when this is completed.
+
+-- runresult error check
+
+-- email should be unique; same person cannot register twice; implement a check for that
+
+
+login page
+
+--> match the credentials user has entered to those stored in the database
+
+-- if it does not match show valid error message
+
+-- if both e-mail and pass dont already exist in the db; redirect to signup page
+
+-- if email exists and password is wrong then show error message
+
+-- email does not exist then redirect to sign up
+
+*** concept of storing encrypted passwords ** check on that
+
+
+--- users table keep the userid as identity and keep incrementing
+
+
+
+profile page
+
+-- add to favourites table if user clicks on that button
+favourites table - userid and book id
+
+-- book id extract by json from the API - see bookdetails and search page
+
+-- so logged in ; some properties will be visible some others will not
+
+
+-- if a user is logged in (how do i check that)
+
+-- to check if the user is logged in store the values in a session.. maybe add 
+show a textbox through javascript for adding a review -> review table userid and bookid and review
+
+
+views will be different for every page 
+
+-- when the user is logged in show a logout on the top right
+
+-- what if more than 1 user logs in at the same time?
+
+-- some type of scaling and state management
+
+
+-- fix author page if possible
+
+-- check the handlers

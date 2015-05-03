@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Introduction</title>
+    <link rel="icon" type="image/png" href="http://net4.ccs.neu.edu/home/ira025/images/project/loveBooks.png" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script src="book_search.js"></script>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="doc.css" />
+
+</head>
+<body>
+    <div class="jumbotron">
+            <div class="container">
+                <center><h2><b>Introduction</h2></b></center>
+                <br />
+                <p>
+                    BookPlanet is a small social platform and search site for book lovers.
+                    Users can search for books they like and get detailed information on the books. They can also
+                    review books and add to favourites, this is done by logging in to the website.
+                    Users can also get information about the author of the book.
+                </p>
+                <p> The following pages have been created for BookPlanet : </p>
+                    <p><b><u>Homepage</u></b> : The main homepage of the application. This contains the link to the
+                 search page , the login and signup pages. </p>
+                        
+                 <p><b><u>Search page</u></b> : In the search page, the user can enter the name of any book. 
+                 The search is done as per the title of the book and the results are displayed. 
+                 </p>
+
+                <p><b><u>Book details page</u></b> : If the user is on the search page and clicks on the image or the
+                title of the book, they will be taken to the book details page. Here the book image, ISBN and a summary of the
+                book are shown. </p>
+                
+                <p><b><u>Author details page</u></b> : If the user is on the search page and clicks on the link for the author 
+                of the book, they will be taken to the author details page. Here the image of the author and other 
+                details of the author are shown.</p>
+
+                <p><b><u>Author books page</u></b> : If the user is on the author details page and clicks on the link "Books by
+                this author" , they will be redirected to the author books page. This displays all the books by a particular 
+                author. Only the images are shown for those books.
+                </p>
+
+                <p><b><u>Author books details page</u></b> : Clicking on any of the images on the author books page will take
+                the user to the details page for that book. This page is different from the book details page since the data
+                is being extracted from a different API. The title , image and summary of the book is shown. </p>
+
+<p><b><u>Signup page</u></b> : Clicking on the signup link on the top right of any of the pages will take the user
+                to the signup page, where they can register for the website. On this page the user is made to
+                enter their basic details which will be stored in the database. </p>
+
+                <p><b><u>Login page</u></b> : Clicking on the login link on the top right of any of the pages or trying to review
+                a book ; or add it to the favourites will take the user to the login page. Here they can login using their e-mail address and password. The details will be 
+                matched with those stored in the database and the user will be redirected to the profile page.</p>
+
+                <p><b><u>Profile page</u></b> : Once the user is logged in ; they are taken to the profile page. This
+                page will display the details of the user; and the books they have added to their favourites. Users can
+                also see the reviews they have made for various books. </p>
+</div>
+    </div>
+</body>
+</html>

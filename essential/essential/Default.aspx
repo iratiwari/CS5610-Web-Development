@@ -9,75 +9,21 @@
 <html lang="en">
 
 <head>
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <meta charset='utf-8' />
 
-<title>Ira's Home Page</title>
+<link href="css/home.css" rel="stylesheet" /> 
 
-<style type="text/css">
-    ul.master_navigation
-    {
-        font-size: 100%;
-        font-weight: bold;
-        text-align: center;
-        list-style: none;
-        margin: 0.5em 0;
-        padding: 0;
-    }
-
-    ul.master_navigation li
-    {
-        display: inline-block;
-        padding: 0 0.5%;
-    }
-
-    a
-    {
-        color: #08f;
-        font-weight: bold;
-        text-decoration: none;
-    }
-
-    a:visited
-    {
-        color: #88f;
-    }
-
-    a:hover
-    {
-        color: #f00;
-    }
-
-    p
-    {
-        text-align: justify;
-    }
-</style>
-
-<style type="text/css" media="screen">
-    body {
-        width:900px;
-        max-width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    .pad {
-        padding: 50px;
-    }
-</style>
+<title>Ira Tiwari - Home Page</title>
 
 </head>
 
 <body>
 
-<div class="pad">
+    <h3>Ira Tiwari</h3>
+    <hr />
 
-<form id="form1" runat="server">
-
-<div>
-
-<ul class="master_navigation">
+<ul class="navul">
     <li><a href="sitestatistics/" target="_blank">SiteStatistics</a></li>
     <li><a href="statistics/" target="_blank">Statistics</a></li>
     <li><a href="source/" target="_blank">Source</a></li>
@@ -90,72 +36,23 @@
     <li><a href="blog/" target="_blank">Blog</a></li>
     <li><a href="story/index.htm?../experiments/story.txt">Experiments</a></li>
     <li><a href="https://github.com/iratiwari/CS5610-Web-Development/tree/master/essential/essential/experiments">Github</a></li>
+    <li><a href="project/home.aspx" target="_blank">Project</a></li>
+
 </ul>
-
-    <p>
-         
-               <img style="max-width:90%" src="images/myimage.jpg" />        
-
-
-    Hi,
-    This is Ira Tiwari. I am a Computer Science graduate student at Northeastern Uniersity, Boston. I did my Bachelor of Technology from 
+<hr />
+    <img class="myimagediv" src="images/myimage.jpg" />
+    <div class="mytextdiv"> <br /> <br />
+    Hi, <br />
+    This is Ira Tiwari. I am a Computer Science graduate student at Northeastern University, Boston. I did my Bachelor of Technology from 
     BVCOE , New Delhi in the field of Instrumentation and Control Engineering from 2007-11. After that I worked at Tata Consultancy 
-    Services up till June 2014. I did my training in .net C# and have worked on SQL and Toad for DB2. 
-    This site has been developed as a part of the course CS5610 Web Development under Prof Jose Annunziato. 
+    Services as a Systems Engineer till June 2014.
+    <br /> This site has been developed as a part of the course CS5610 Web Development under Prof Jose Annunziato. 
 
-    Watch this space for any updates!
-        
-    </p>
+    Get in touch with me using:<br><br><a href="mailto:tiwari.i@husky.neu.edu">Mail</a><br><br>
+        <a href="https://www.facebook.com/ira025" target="_blank">Facebook</a><br /> <br />
+        <a href="https://www.linkedin.com/pub/ira-tiwari/3a/144/617" target="_blank">LinkedIn</a>
 
-<p>
+        </div>
     
-    
-</p>
-
-
-
-<p>
-      
-</p>
-
-
-
-<p>
-    
-</p>
-    
-
-
-<p>
-Here is a link to the
-<a href="story/index.htm" target="_blank">Story Utility</a>
-on this site so that you may explore this tool.
-</p>
-
-<p>
-Here is a link to the
-<a href="http://www.northeastern.edu/rasala/webstories.htm"
-        target="_blank">Web Development Stories</a>
-so that you may see a good collection of online documentation.
-</p>
-
-<p>
-
-</p>
-
-<hr />
-
-<p>
-
-</p>
-
-<hr />
-
-</div>
-
-</form>
-
-</div>
-
 </body>
 </html>

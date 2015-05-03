@@ -1,0 +1,30 @@
+﻿body{
+    background-image:url('http://www.wallconvert.com/wallpapers/abstract/light-grey-curves-15195.html');
+    font-family:'Shift', sans-serif;
+    font-weight:bold;
+}
+
+
+.jumbotron {
+     background-image:url('http://www.bahr.net.nz/wp-content/uploads/2013/07/Bookshelf-2.jpg');    
+  background-repeat: inherit;
+  background-size: contain;
+  color : white;
+}
+.jumbotron .container
+{
+       display: block;
+        width:80%;
+        background-color:#efefef;
+        opacity:2;
+        color:black;
+
+}
+img
+{
+    padding-top:30px;
+    padding-left:100px;
+    height:90%;
+    width:90%;
+    padding-bottom:70px;
+}
